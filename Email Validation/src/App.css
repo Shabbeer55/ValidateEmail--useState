@@ -1,0 +1,54 @@
+/* Styles for the Email component */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #386b98; /* Light blue background */
+  font-family: Arial, sans-serif;
+}
+
+.email-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(170, 111, 111);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.email-container label {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.email-container input {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  width: 250px;
+}
+
+.email-container button {
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.email-container button:hover {
+  background-color: #0056b3;
+}
+
+.email-container span {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
